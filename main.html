@@ -18,23 +18,23 @@
 		<input id="gender_m" name="gender" type="radio" required>
 		<span>Female</span>
 		<input id="gender_f" name="gender" type="radio" required><br>
-		<label>Car Brands:</label>
-		<select name="Favorite Cars">
+		<label for="cars">Car Brands:</label>
+		<select id="cars">
 			<option>--Please choose an option--</option>
 			<option>BMW</option>
 			<optin>Benz</optin>
 		</select><br>
-		<label>Age:</label>
-		<input type="number"><br>
-		<label>DOB:</label>
-		<input type="date" required><br>
-		<label>Phone Number:</label>
+		<label for="age">Age:</label>
+		<input id="age" type="number"><br>
+		<label for="dob">DOB:</label>
+		<input id="dob" type="date" required><br>
+		<label for="tel">Phone Number:</label>
 		<input id="tel" placeholder="xxx-xxx-xxxx" type="tel"><br>
-		<label>Password:</label>
-		<input placeholder="Password" type="password" required><br>
-		<label>I agree to the TOS:</label>
+		<label for="pswd">Password:</label>
+		<input id="pswd" placeholder="Password" type="password" required><br>
+		<label for="tos">I agree to the TOS:</label>
 		<input id="tos" type="checkbox" required><br>
-		<input type="submit">
+		<button type="submit">Submit</button>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
